@@ -21,10 +21,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
 # SECRET_KEY = '9dr9o*opubwvzux1iqxs+47^m05+1kz_!1su3+w08ss57j39)m'
-SECRET_KEY= os.environ.get('SECRET_KEY')
+SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+# DEBUG = True
+DEBUG = os.environ.get(os.environ.get('DEBUG_VALUE') == 'true')
 
 ALLOWED_HOSTS = ['quiet-escarpment-41189.herokuapp.com']
 
