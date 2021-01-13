@@ -11,4 +11,4 @@ Password: testing321
 
 ## Screenshot
 
-![screenshot](https://github.com/HaochenQ/Django-blog/blob/master/media/profile_pics/screenshot.png)
+![screenshot](https://github.com/HaochenQ/Django-blog/blob/main/media/profile_pics/screenshot.png)
